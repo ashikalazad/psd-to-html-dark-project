@@ -1,0 +1,120 @@
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+  .cd-words-wrapper b.is-visible {
+    font-size: 2.5rem;
+}
+
+.cd-headline.clip span {
+    font-size: 2.5rem;
+}
+
+  .popup-area .row {
+    display: flex;
+    flex-direction: row !important;
+    flex-direction: column-reverse !important;
+  }
+
+  .left-area {
+    width: 75%;
+  }
+
+  .Testimonial-area .card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .Testimonial-img img {
+    max-width: 150px;
+    margin-right: 25px;
+  }
+
+  .Testimonial-area h6 {
+    margin: 0px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+
+  .awesome-area .nav{
+    margin-bottom: 20px;
+  }
+
+}
+
+@media only screen and (max-width: 767px){
+
+  .cd-words-wrapper b.is-visible {
+    font-size: 2rem;
+}
+
+.cd-headline.clip span {
+    font-size: 2rem;
+}
+  
+  .awesome-main-area {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.awesome-single-item{
+ margin: 10px 0;
+}
+
+.awesome-area .nav{
+  margin-bottom: 20px;
+}
+.mr{
+  margin-right: 10px;
+}
+
+.ml{
+  margin-left: 10px;
+}
+
+.awesome-img img{
+  height: 100px;
+  width: 145px;
+}
+
+.contact-area .card {
+  height: 870px;
+}
+
+}
+
+@media only screen and (max-width: 600px){
+
+  .awesome-single-item{
+    padding: 20px 20px 10px 20px;
+  }
+
+  .mr{
+    margin-right: 10px;
+  }
+
+  .ml{
+    margin-left: 10px;
+  }
+
+  .hover-color p{
+    margin-top: 30px;
+  }
+
+  .awesome-img img{
+    height: 70px;
+    width: 150px;
+  }
+
+  .contact-area .card {
+    height: 870px;
+  }
+
+}
+
+@media only screen and (max-width: 500px){
+
+
+}
